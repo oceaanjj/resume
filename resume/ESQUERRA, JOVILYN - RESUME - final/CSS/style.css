@@ -1,0 +1,527 @@
+@font-face{
+    font-family: creatbold;
+    src: url(../FONT/CreatoDisplay-Black.otf);
+}
+
+@font-face{
+    font-family: creatlight;
+    src: url(../FONT/CreatoDisplay-Regular.otf);
+}
+
+a:link{
+    color: #605458;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #605458;
+}
+
+body{
+    margin: 0%;
+}
+
+.bondpaper{
+    background-color: #ffffff;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.page{
+    background-image: linear-gradient(to right, #490111,#7d021d,#b50027);
+    padding-top: 10%;
+    padding-bottom: 10%;  
+}
+
+#idpic{
+    width: 100%;
+    border-radius: 100% 100% 100% 100%;
+}
+#idpic:hover{
+    border: 4px solid;
+    border-color: #e9a11c;
+}
+
+
+
+#personal{
+    font-family: creatlight;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 30px 0px 30px;
+    color: #605458;
+}
+
+.address:hover{
+    color: #e9a11c;
+    font-size: 21px;
+}
+
+.line{
+    background-color: #e9a11c;
+    border: none;
+}
+
+#objective{
+    padding: 0% 13% 0% 13%;
+}
+
+.obj{
+    font-family: creatbold;
+    font-size: 40px;
+    color: #e9a11c;
+}
+
+.objinfo{
+    font-family: creatlight;
+}
+
+.achieves2{
+     padding: 0% 8% 0% 9vw;
+    position: relative;
+}
+.achievetable{
+    padding-top: 50px;
+}
+.achieve{
+    font-family: creatbold;
+    font-size: 40px;
+    color: #e9a11c;
+}
+
+#achieve{
+    font-family: creatbold;
+    font-size: 17px;
+}
+
+.achieves3{
+    height: auto;
+    width: 30vw;
+    background-color: #e9a11c;
+    border-radius: 60px 60px 60px 60px;
+    display: inline-block;
+    
+}
+#achieve3{
+    padding-left: 12%;
+    font-family: creatbold;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 22%;
+}
+.achieve5{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: creatbold;
+    padding-left: 12%;
+}
+
+.conclusion{
+    padding-right: 100px;
+}
+
+.signature{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 600px){
+#name{
+        font-family: creatbold;
+        font-size: 30px;
+        padding: 40px 40px 0px 20px;
+        color: #e9a11c;
+}
+
+ .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 5vw 9vw 2vw 9vw;
+}
+
+.idpic{
+    flex-basis: 25vw;
+}
+#basicinfo{
+   flex-basis: 35vw;
+   padding-left: 10px;
+}
+
+.basicinfo{
+    padding-left: 40px;
+}
+
+.achivements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5vw 9vw 2vw 9vw;
+    
+}
+
+.achieves{
+    flex: 1 0 200px;
+    width: 31vw;
+    
+}
+
+.achievess{
+    flex: 1 0 200px;
+    width: 31vw;
+    padding-left: 60px;   
+}
+
+
+
+.achieves2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5vw 9vw 2vw 9vw;
+}
+
+#achievepic{
+    padding-left: 30%;
+}
+
+#elem{
+    font-family: creatlight;
+}
+
+.contactresume{
+    margin-left: 40px;
+    flex: 1 0 200px;
+    width: 30vw;
+}
+
+.achieves3{
+    height: auto;
+    width: 30vw;
+    background-color: #e9a11c;
+    border-radius: 60px 60px 60px 60px;
+    display: inline-block;
+    padding-bottom: 20px; 
+}
+}
+
+@media only screen and (min-width: 600px){
+    #name{
+        font-family: creatbold;
+        font-size: 30px;
+        padding: 40px 40px 0px 20px;
+        color: #e9a11c;
+    }
+    
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 5vw 9vw 2vw 9vw;
+    }
+    
+    .idpic{
+        flex-basis: 25vw;
+    }
+    #basicinfo{
+       flex-basis: 35vw;
+       padding-left: 10px;
+    }
+    
+    .basicinfo{
+        padding-left: 40px;
+    }
+    
+    .achivements{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5vw 9vw 2vw 9vw;
+        
+    }
+    
+    .achieves{
+        flex: 1 0 200px;
+        width: 31vw;
+        
+    }
+    
+    .achievess{
+        flex: 1 0 200px;
+        width: 31vw;
+        padding-left: 60px;   
+    }
+    
+    .achieves2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5vw 9vw 2vw 9vw;
+    }
+    
+    #achievepic{
+        padding-left: 30%;
+    }
+    
+    #elem{
+        font-family: creatlight;
+    }
+    
+    .contactresume{
+        margin-left: 40px;
+        flex: 1 0 200px;
+        width: 30vw;
+    }
+    
+    .achieves3{
+        height: auto;
+        width: 30vw;
+        background-color: #e9a11c;
+        border-radius: 60px 60px 60px 60px;
+        display: inline-block;
+        padding-bottom: 20px; 
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    #name{
+        font-family: creatbold;
+        font-size: 50px;
+        padding: 40px 40px 0px 30px;
+        color: #e9a11c;
+    }
+    
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 5vw 9vw 2vw 9vw;
+    }
+    
+    .idpic{
+        flex-basis: 25vw;
+    }
+    #basicinfo{
+       flex-basis: 35vw;
+       padding-left: 10px;
+    }
+    
+    .basicinfo{
+        padding-left: 40px;
+    }
+    
+    .achivements{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5vw 9vw 2vw 9vw;
+        
+    }
+    
+    .achieves{
+        flex: 1 0 200px;
+        width: 31vw;
+        
+    }
+    
+    .achievess{
+        flex: 1 0 200px;
+        width: 31vw;
+        padding-left: 60px;   
+    }
+    
+    .achieves2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5vw 9vw 2vw 9vw;
+    }
+    
+    #achievepic{
+        padding-left: 30%;
+    }
+    
+    #elem{
+        font-family: creatlight;
+    }
+    
+    .contactresume{
+        margin-left: 40px;
+        flex: 1 0 200px;
+        width: 30vw;
+    }
+    
+    .achieves3{
+        height: auto;
+        width: 30vw;
+        background-color: #e9a11c;
+        border-radius: 60px 60px 60px 60px;
+        display: inline-block;
+        padding-bottom: 20px; 
+    }
+}
+@media only screen and (min-width: 992px){
+    #name{
+        font-family: creatbold;
+        font-size: 60px;
+        padding: 40px 40px 0px 30px;
+        color: #e9a11c;
+    }
+    
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 5vw 9vw 2vw 9vw;
+    }
+    
+    .idpic{
+        flex-basis: 25vw;
+    }
+    #basicinfo{
+       flex-basis: 35vw;
+       padding-left: 10px;
+    }
+    
+    .basicinfo{
+        padding-left: 40px;
+    }
+    
+    .achivements{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5vw 9vw 2vw 9vw;
+        
+    }
+    
+    .achieves{
+        flex: 1 0 200px;
+        width: 31vw;
+        
+    }
+    
+    .achievess{
+        flex: 1 0 200px;
+        width: 31vw;
+        padding-left: 60px;   
+    }
+    
+    .achieves:first-child{
+        border-right: #e9a11c 5px solid;
+    }
+    
+    .achieves2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5vw 9vw 2vw 9vw;
+    }
+    
+    #achievepic{
+        padding-left: 30%;
+    }
+    
+    #elem{
+        font-family: creatlight;
+    }
+    
+    .contactresume{
+        margin-left: 40px;
+        flex: 1 0 200px;
+        width: 30vw;
+    }
+    
+    .achieves3{
+        height: auto;
+        width: 30vw;
+        background-color: #e9a11c;
+        border-radius: 60px 60px 60px 60px;
+        display: inline-block;
+        padding-bottom: 20px; 
+    }
+}
+@media only screen and (min-width: 1200px){
+    #name{
+        font-family: creatbold;
+        font-size: 60px;
+        padding: 40px 40px 0px 30px;
+        color: #e9a11c;
+    }
+    
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 5vw 9vw 2vw 9vw;
+    }
+    
+    .idpic{
+        flex-basis: 25vw;
+    }
+    #basicinfo{
+       flex-basis: 35vw;
+       padding-left: 10px;
+    }
+    
+    .basicinfo{
+        padding-left: 40px;
+    }
+    
+    .achivements{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5vw 9vw 2vw 9vw;
+        
+    }
+    
+    .achieves{
+        flex: 1 0 200px;
+        width: 31vw;
+        
+    }
+    
+    .achievess{
+        flex: 1 0 200px;
+        width: 31vw;
+        padding-left: 60px;   
+    }
+    
+    .achieves:first-child{
+        border-right: #e9a11c 5px solid;
+    }
+    
+    .achieves2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5vw 9vw 2vw 9vw;
+    }
+    
+    #achievepic{
+        padding-left: 30%;
+    }
+    
+    #elem{
+        font-family: creatlight;
+    }
+    
+    .contactresume{
+        margin-left: 40px;
+        flex: 1 0 200px;
+        width: 30vw;
+    }
+    
+    .achieves3{
+        height: auto;
+        width: 30vw;
+        background-color: #e9a11c;
+        border-radius: 60px 60px 60px 60px;
+        display: inline-block;
+        padding-bottom: 20px; 
+    }
+}
+    
